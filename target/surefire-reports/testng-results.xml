@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-18T22:54:31 IST" name="McD Customization Grill Suite" finished-at="2026-10-18T22:55:24 IST" duration-ms="53609">
+    <groups>
+      <group name="regression">
+        <method signature="CustomizationGrillTest.unavailableCustomizationTest()[pri:1, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" name="unavailableCustomizationTest" class="testModules.customization.tests.CustomizationGrillTest"/>
+        <method signature="CustomizationGrillTest.verifyCustomizableItemsAreDisplayedForASelectedProductTest()[pri:2, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" name="verifyCustomizableItemsAreDisplayedForASelectedProductTest" class="testModules.customization.tests.CustomizationGrillTest"/>
+        <method signature="CustomizationGrillTest.verifyProductPriceForMultipleCustomizableItemsTest()[pri:3, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" name="verifyProductPriceForMultipleCustomizableItemsTest" class="testModules.customization.tests.CustomizationGrillTest"/>
+        <method signature="CustomizationGrillTest.verifySelectedCustomizationIsDisplayedInCartTest()[pri:4, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" name="verifySelectedCustomizationIsDisplayedInCartTest" class="testModules.customization.tests.CustomizationGrillTest"/>
+        <method signature="CustomizationGrillTest.removeCustomizationTest()[pri:5, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" name="removeCustomizationTest" class="testModules.customization.tests.CustomizationGrillTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CustomizationGrillTest.unavailableCustomizationTest()[pri:1, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" name="unavailableCustomizationTest" class="testModules.customization.tests.CustomizationGrillTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-10-18T22:54:31 IST" name="Customization Test Cases" finished-at="2026-10-18T22:55:24 IST" duration-ms="53609">
+      <class name="testModules.customization.tests.CustomizationGrillTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:31 IST" name="setUp" finished-at="2026-10-18T22:54:40 IST" duration-ms="9653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unavailableCustomizationTest()[pri:1, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:40 IST" name="unavailableCustomizationTest" description="Verify McDelivery menu/category loads" finished-at="2026-10-18T22:54:41 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unavailableCustomizationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:41 IST" name="tearDown" finished-at="2026-10-18T22:54:42 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:42 IST" name="setUp" finished-at="2026-10-18T22:54:49 IST" duration-ms="6880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomizableItemsAreDisplayedForASelectedProductTest()[pri:2, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:49 IST" name="verifyCustomizableItemsAreDisplayedForASelectedProductTest" description="Verify customization panel opens for a customizable product" finished-at="2026-10-18T22:54:51 IST" duration-ms="1587" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Fries & Sides
+Desserts
+Cakes Brownies & Cookies
+Protein Plus & Coke Zero Meals
+Spiderman Brand New Day - The Meal
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Fries & Sides
+Desserts
+Cakes Brownies & Cookies
+Protein Plus & Coke Zero Meals
+Spiderman Brand New Day - The Meal
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+at testModules.customization.tests.CustomizationGrillTest.verifyCustomizableItemsAreDisplayedForASelectedProductTest(CustomizationGrillTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomizableItemsAreDisplayedForASelectedProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:51 IST" name="tearDown" finished-at="2026-10-18T22:54:52 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:52 IST" name="setUp" finished-at="2026-10-18T22:54:58 IST" duration-ms="6011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductPriceForMultipleCustomizableItemsTest()[pri:3, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:58 IST" name="verifyProductPriceForMultipleCustomizableItemsTest" description="Verify customization options and panel content" finished-at="2026-10-18T22:54:59 IST" duration-ms="686" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+at testModules.customization.tests.CustomizationGrillTest.verifyProductPriceForMultipleCustomizableItemsTest(CustomizationGrillTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPriceForMultipleCustomizableItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:54:59 IST" name="tearDown" finished-at="2026-10-18T22:55:00 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:55:00 IST" name="setUp" finished-at="2026-10-18T22:55:07 IST" duration-ms="6424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySelectedCustomizationIsDisplayedInCartTest()[pri:4, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:55:07 IST" name="verifySelectedCustomizationIsDisplayedInCartTest" description="Verify a customized product can be added to the cart" finished-at="2026-10-18T22:55:09 IST" duration-ms="2018" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Fries & Sides
+Desserts
+Cakes Brownies & Cookies
+Protein Plus & Coke Zero Meals
+Spiderman Brand New Day - The Meal
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Fries & Sides
+Desserts
+Cakes Brownies & Cookies
+Protein Plus & Coke Zero Meals
+Spiderman Brand New Day - The Meal
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+at testModules.customization.tests.CustomizationGrillTest.verifySelectedCustomizationIsDisplayedInCartTest(CustomizationGrillTest.java:118)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedCustomizationIsDisplayedInCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:55:09 IST" name="tearDown" finished-at="2026-10-18T22:55:11 IST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:55:11 IST" name="setUp" finished-at="2026-10-18T22:55:21 IST" duration-ms="10224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeCustomizationTest()[pri:5, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:55:21 IST" name="removeCustomizationTest" description="Verify a cart item can be removed" finished-at="2026-10-18T22:55:23 IST" duration-ms="1786" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: McDelivery
+McDonald's India , Tumkur
+Please enter your location so we can search the nearest restaurant to start ordering.
+Now
+Offers
+Restaurants Nearby
+No banner image found..!
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicke
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: McDelivery
+McDonald's India , Tumkur
+Please enter your location so we can search the nearest restaurant to start ordering.
+Now
+Offers
+Restaurants Nearby
+No banner image found..!
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicke
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+at testModules.customization.tests.CustomizationGrillTest.removeCustomizationTest(CustomizationGrillTest.java:153)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCustomizationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@7adda9cc]" started-at="2026-10-18T22:55:23 IST" name="tearDown" finished-at="2026-10-18T22:55:24 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testModules.customization.tests.CustomizationGrillTest -->
+    </test> <!-- Customization Test Cases -->
+  </suite> <!-- McD Customization Grill Suite -->
+</testng-results>

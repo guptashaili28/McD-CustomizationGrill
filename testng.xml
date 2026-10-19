@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="McD Customization Grill Suite" parallel="false" verbose="1">
+  <listeners><listener class-name="listeners.TestListener"/></listeners>
+  <test name="Customization Test Cases">
+    <classes><class name="testModules.customization.tests.CustomizationGrillTest"/></classes>
+  </test>
+</suite>

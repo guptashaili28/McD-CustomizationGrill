@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-19T09:42:33 IST" name="Default suite" finished-at="2026-10-19T09:45:38 IST" duration-ms="184618">
+    <groups>
+    </groups>
+    <test started-at="2026-10-19T09:42:33 IST" name="Default test" finished-at="2026-10-19T09:45:38 IST" duration-ms="184618">
+      <class name="testModules.customization.tests.CustomizationGrillTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:42:33 IST" name="setUp" finished-at="2026-10-19T09:42:43 IST" duration-ms="10393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomizableProductAvailableTest()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:42:43 IST" name="verifyCustomizableProductAvailableTest" finished-at="2026-10-19T09:43:04 IST" duration-ms="20460" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No customizable product was found. Confirm that menu items have loaded first. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No customizable product was found. Confirm that menu items have loaded first. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testModules.customization.tests.CustomizationGrillTest.verifyCustomizableProductAvailableTest(CustomizationGrillTest.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomizableProductAvailableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:43:04 IST" name="tearDown" finished-at="2026-10-19T09:43:20 IST" duration-ms="15831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:43:20 IST" name="setUp" finished-at="2026-10-19T09:43:29 IST" duration-ms="9548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomizationPanelOpensTest()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:43:29 IST" name="verifyCustomizationPanelOpensTest" finished-at="2026-10-19T09:43:40 IST" duration-ms="10829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomizationPanelOpensTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:43:40 IST" name="tearDown" finished-at="2026-10-19T09:43:56 IST" duration-ms="15752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:43:56 IST" name="setUp" finished-at="2026-10-19T09:44:06 IST" duration-ms="10368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageOpensTest()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:44:06 IST" name="verifyHomePageOpensTest" finished-at="2026-10-19T09:44:06 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageOpensTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:44:06 IST" name="tearDown" finished-at="2026-10-19T09:44:22 IST" duration-ms="16012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:44:22 IST" name="setUp" finished-at="2026-10-19T09:44:32 IST" duration-ms="10229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMenuItemsDisplayedTest()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:44:32 IST" name="verifyMenuItemsDisplayedTest" finished-at="2026-10-19T09:44:35 IST" duration-ms="2726" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Menu cards are not present in the current page DOM. Inspect the Firefox window and check location/restaurant selection. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Menu cards are not present in the current page DOM. Inspect the Firefox window and check location/restaurant selection. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testModules.customization.tests.CustomizationGrillTest.verifyMenuItemsDisplayedTest(CustomizationGrillTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuItemsDisplayedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:44:35 IST" name="tearDown" finished-at="2026-10-19T09:44:51 IST" duration-ms="15834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:44:51 IST" name="setUp" finished-at="2026-10-19T09:45:01 IST" duration-ms="10245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRemoveCustomizationControlTest()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:45:01 IST" name="verifyRemoveCustomizationControlTest" finished-at="2026-10-19T09:45:22 IST" duration-ms="20426" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.cssSelector: .cart-status-bar__main--with-banner > .cart-status-bar__cta to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: .cart-status-bar__main--with-banner > .cart-status-bar__cta.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0, moz:accessibilityChecks: false, moz:buildID: 20261007201254, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8712, moz:profile: C:\Users\gupta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b7799d1a-5782-4ef8-aecd-ff050c719d5a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: .cart-status-bar__main--with-banner > .cart-status-bar__cta to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: .cart-status-bar__main--with-banner > .cart-status-bar__cta.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0, moz:accessibilityChecks: false, moz:buildID: 20261007201254, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8712, moz:profile: C:\Users\gupta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b7799d1a-5782-4ef8-aecd-ff050c719d5a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at testModules.customization.tests.CustomizationGrillTest.verifyRemoveCustomizationControlTest(CustomizationGrillTest.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveCustomizationControlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testModules.customization.tests.CustomizationGrillTest@44ebcd03]" started-at="2026-10-19T09:45:22 IST" name="tearDown" finished-at="2026-10-19T09:45:38 IST" duration-ms="15898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testModules.customization.tests.CustomizationGrillTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

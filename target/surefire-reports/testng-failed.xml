@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [McD Customization Grill Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Customization Test Cases(failed)" verbose="0">
+    <classes>
+      <class name="testModules.customization.tests.CustomizationGrillTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyCustomizableItemsAreDisplayedForASelectedProductTest"/>
+          <include name="removeCustomizationTest"/>
+          <include name="verifySelectedCustomizationIsDisplayedInCartTest"/>
+          <include name="verifyProductPriceForMultipleCustomizableItemsTest"/>
+        </methods>
+      </class> <!-- testModules.customization.tests.CustomizationGrillTest -->
+    </classes>
+  </test> <!-- Customization Test Cases(failed) -->
+</suite> <!-- Failed suite [McD Customization Grill Suite] -->

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="54.554" tests="5" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gupta\Downloads\McD-CustomizationGrill-Fixed-TestCases\McD-CustomizationGrill\target\test-classes;C:\Users\gupta\Downloads\McD-CustomizationGrill-Fixed-TestCases\McD-CustomizationGrill\target\classes;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-java\4.51.0\selenium-java-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\gupta\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.51.0\selenium-chrome-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.51.0\selenium-chromium-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.51.0\selenium-devtools-latest-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.51.0\selenium-devtools-v153-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.51.0\selenium-devtools-v154-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.51.0\selenium-devtools-v155-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.51.0\selenium-edge-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.51.0\selenium-firefox-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.51.0\selenium-ie-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\gupta\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\gupta\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gupta\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\gupta\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\gupta\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.51.0\selenium-safari-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\gupta\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gupta\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gupta\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gupta\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gupta\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\gupta\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\gupta\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\gupta\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\gupta\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\gupta\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\gupta\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\gupta\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\gupta\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\gupta\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\gupta\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gupta\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gupta\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gupta\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gupta\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\gupta\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\gupta\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\gupta\AppData\Local\Temp\surefire6763165317380514929\surefirebooter-20261018225430294_3.jar C:\Users\gupta\AppData\Local\Temp\surefire6763165317380514929 2026-10-18T22-54-30_199-jvmRun1 surefire-20261018225430294_1tmp surefire_0-20261018225430294_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\gupta\Downloads\McD-CustomizationGrill-Fixed-TestCases\McD-CustomizationGrill\target\test-classes;C:\Users\gupta\Downloads\McD-CustomizationGrill-Fixed-TestCases\McD-CustomizationGrill\target\classes;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-java\4.51.0\selenium-java-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\gupta\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.51.0\selenium-chrome-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.51.0\selenium-chromium-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.51.0\selenium-devtools-latest-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.51.0\selenium-devtools-v153-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.51.0\selenium-devtools-v154-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.51.0\selenium-devtools-v155-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.51.0\selenium-edge-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.51.0\selenium-firefox-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.51.0\selenium-ie-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\gupta\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\gupta\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gupta\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\gupta\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\gupta\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\gupta\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.51.0\selenium-safari-driver-4.51.0.jar;C:\Users\gupta\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\gupta\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gupta\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gupta\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gupta\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gupta\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\gupta\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\gupta\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\gupta\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\gupta\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\gupta\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\gupta\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\gupta\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\gupta\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\gupta\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\gupta\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\gupta\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gupta\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gupta\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gupta\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gupta\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\gupta\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gupta"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Users\gupta\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gupta\Downloads\McD-CustomizationGrill-Fixed-TestCases\McD-CustomizationGrill"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gupta\AppData\Local\Temp\surefire6763165317380514929\surefirebooter-20261018225430294_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.4.1+1-LTS"/>
+    <property name="user.name" value="gupta"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.4.1+1"/>
+    <property name="localRepository" value="C:\Users\gupta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\gupta\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.4.1"/>
+    <property name="user.dir" value="C:\Users\gupta\Downloads\McD-CustomizationGrill-Fixed-TestCases\McD-CustomizationGrill"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="headless" value="false"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\gupta\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/gupta/Downloads/eclipse-java-2026-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin/server;C:/Users/gupta/Downloads/eclipse-java-2026-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\MinGW\bin\g++.exe;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\WireGuard\;C:\Users\gupta\AppData\Local\Programs\Python\Launcher\;C:\Users\gupta\AppData\Local\Microsoft\WindowsApps;C:\msys64\ucrt64\bin;C:\Users\gupta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gupta\AppData\Roaming\npm;C:\Users\gupta\AppData\Local\GitHubDesktop\bin;C:\Users\gupta\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\gupta\Downloads\eclipse-java-2026-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.4.1+1-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="unavailableCustomizationTest" classname="testModules.customization.tests.CustomizationGrillTest" time="0.741">
+    <system-out><![CDATA[====================================
+Starting McDelivery test
+Configured URL: https://mcdelivery.co.in/
+Browser selected: firefox
+Browser session initialized.
+Browser session started: FirefoxDriver
+Page title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Current URL: https://mcdelivery.co.in/
+McDelivery page opened.
+[main] McDelivery page and menu/category visibility verified.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCustomizableItemsAreDisplayedForASelectedProductTest" classname="testModules.customization.tests.CustomizationGrillTest" time="1.833">
+    <failure message="Customization panel did not open.&#10;URL: https://mcdelivery.co.in/&#10;Title: Order McDonald&apos;s Burger &amp; Food Delivery Online - McDelivery India&#10;Visible page text: -&#10;Offers&#10;Restaurants Nearby&#10;Our Menu&#10;For You&#10;Deals&#10;New Launch&#10;Burger Combos ( 3 Pc Meals )&#10;McSaver Combos (2 Pc Meals)&#10;Fried Chicken &amp; Wings&#10;Burgers &amp; Wraps&#10;Group Sharing Combos&#10;Coffee &amp; Beverages&#10;Fries &amp; Sides&#10;Desserts&#10;Cakes Brownies &amp; Cookies&#10;Protein Plus &amp; Coke Zero Meals&#10;Spiderman Brand New Day - The Meal&#10;Burger Combos ( 3 Pc Meals )&#10;Veg&#10;Non-Veg&#10;16% Off&#10;Spicy Patakha Chicken Meal (M)&#10;Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Fries & Sides
+Desserts
+Cakes Brownies & Cookies
+Protein Plus & Coke Zero Meals
+Spiderman Brand New Day - The Meal
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+	at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+	at testModules.customization.tests.CustomizationGrillTest.verifyCustomizableItemsAreDisplayedForASelectedProductTest(CustomizationGrillTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Closing browser session: FirefoxDriver
+Browser closed successfully.
+====================================
+Starting McDelivery test
+Configured URL: https://mcdelivery.co.in/
+Browser selected: firefox
+Browser session initialized.
+Browser session started: FirefoxDriver
+Page title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Current URL: https://mcdelivery.co.in/
+McDelivery page opened.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductPriceForMultipleCustomizableItemsTest" classname="testModules.customization.tests.CustomizationGrillTest" time="0.801">
+    <failure message="Customization panel did not open.&#10;URL: https://mcdelivery.co.in/&#10;Title: Order McDonald&apos;s Burger &amp; Food Delivery Online - McDelivery India&#10;Visible page text: -&#10;Offers&#10;Restaurants Nearby&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+	at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+	at testModules.customization.tests.CustomizationGrillTest.verifyProductPriceForMultipleCustomizableItemsTest(CustomizationGrillTest.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Closing browser session: FirefoxDriver
+Browser closed successfully.
+====================================
+Starting McDelivery test
+Configured URL: https://mcdelivery.co.in/
+Browser selected: firefox
+Browser session initialized.
+Browser session started: FirefoxDriver
+Page title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Current URL: https://mcdelivery.co.in/
+McDelivery page opened.
+]]></system-out>
+  </testcase>
+  <testcase name="verifySelectedCustomizationIsDisplayedInCartTest" classname="testModules.customization.tests.CustomizationGrillTest" time="2.178">
+    <failure message="Customization panel did not open.&#10;URL: https://mcdelivery.co.in/&#10;Title: Order McDonald&apos;s Burger &amp; Food Delivery Online - McDelivery India&#10;Visible page text: -&#10;Offers&#10;Restaurants Nearby&#10;Our Menu&#10;For You&#10;Deals&#10;New Launch&#10;Burger Combos ( 3 Pc Meals )&#10;McSaver Combos (2 Pc Meals)&#10;Fried Chicken &amp; Wings&#10;Burgers &amp; Wraps&#10;Group Sharing Combos&#10;Coffee &amp; Beverages&#10;Fries &amp; Sides&#10;Desserts&#10;Cakes Brownies &amp; Cookies&#10;Protein Plus &amp; Coke Zero Meals&#10;Spiderman Brand New Day - The Meal&#10;Burger Combos ( 3 Pc Meals )&#10;Veg&#10;Non-Veg&#10;16% Off&#10;Spicy Patakha Chicken Meal (M)&#10;Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: -
+Offers
+Restaurants Nearby
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Fries & Sides
+Desserts
+Cakes Brownies & Cookies
+Protein Plus & Coke Zero Meals
+Spiderman Brand New Day - The Meal
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicken patty, rich makhani sauce, and cru
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+	at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+	at testModules.customization.tests.CustomizationGrillTest.verifySelectedCustomizationIsDisplayedInCartTest(CustomizationGrillTest.java:118)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Closing browser session: FirefoxDriver
+Browser closed successfully.
+====================================
+Starting McDelivery test
+Configured URL: https://mcdelivery.co.in/
+Browser selected: firefox
+Browser session initialized.
+Browser session started: FirefoxDriver
+Page title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Current URL: https://mcdelivery.co.in/
+McDelivery page opened.
+]]></system-out>
+  </testcase>
+  <testcase name="removeCustomizationTest" classname="testModules.customization.tests.CustomizationGrillTest" time="1.938">
+    <failure message="Customization panel did not open.&#10;URL: https://mcdelivery.co.in/&#10;Title: Order McDonald&apos;s Burger &amp; Food Delivery Online - McDelivery India&#10;Visible page text: McDelivery&#10;McDonald&apos;s India , Tumkur&#10;Please enter your location so we can search the nearest restaurant to start ordering.&#10;Now&#10;Offers&#10;Restaurants Nearby&#10;No banner image found..!&#10;Our Menu&#10;For You&#10;Deals&#10;New Launch&#10;Burger Combos ( 3 Pc Meals )&#10;McSaver Combos (2 Pc Meals)&#10;Fried Chicken &amp; Wings&#10;Burgers &amp; Wraps&#10;Group Sharing Combos&#10;Coffee &amp; Beverages&#10;Burger Combos ( 3 Pc Meals )&#10;Veg&#10;Non-Veg&#10;16% Off&#10;Spicy Patakha Chicken Meal (M)&#10;Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicke&#10;Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Customization panel did not open.
+URL: https://mcdelivery.co.in/
+Title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Visible page text: McDelivery
+McDonald's India , Tumkur
+Please enter your location so we can search the nearest restaurant to start ordering.
+Now
+Offers
+Restaurants Nearby
+No banner image found..!
+Our Menu
+For You
+Deals
+New Launch
+Burger Combos ( 3 Pc Meals )
+McSaver Combos (2 Pc Meals)
+Fried Chicken & Wings
+Burgers & Wraps
+Group Sharing Combos
+Coffee & Beverages
+Burger Combos ( 3 Pc Meals )
+Veg
+Non-Veg
+16% Off
+Spicy Patakha Chicken Meal (M)
+Turn up the heat with the Spicy Patakha Burger Meal! A juicy spicy Chicke
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: driver.version: unknown
+	at pages.CustomizationPage.openFirstCustomizableProduct(CustomizationPage.java:195)
+	at testModules.customization.tests.CustomizationGrillTest.removeCustomizationTest(CustomizationGrillTest.java:153)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Closing browser session: FirefoxDriver
+Browser closed successfully.
+====================================
+Starting McDelivery test
+Configured URL: https://mcdelivery.co.in/
+Browser selected: firefox
+Browser session initialized.
+Browser session started: FirefoxDriver
+Page title: Order McDonald's Burger & Food Delivery Online - McDelivery India
+Current URL: https://mcdelivery.co.in/
+McDelivery page opened.
+]]></system-out>
+  </testcase>
+</testsuite>
